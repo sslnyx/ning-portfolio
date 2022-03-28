@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.eot");
+  src: url("/fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("/fonts/Montserrat-Regular.woff") format("woff"),
+    url("/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Medium.eot");
+  src: url("/fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("/fonts/Montserrat-Medium.woff") format("woff"),
+    url("/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Bold.eot");
+  src: url("/fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("/fonts/Montserrat-Bold.woff") format("woff"),
+    url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #root {
+    @apply overflow-hidden;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-bold;
+  }
+
+  h2 {
+    @apply font-bold font-[500] text-[40px] leading-[40px] -ml-[2px] lg:text-[100px] lg:leading-[90px] md:-ml-[10px] mb-[50px] uppercase;
+  }
+
+  p {
+    @apply mb-3 last:mb-3;
+  }
+
+  section {
+    @apply py-[50px] md:py-[100px];
+  }
+
+  svg {
+    @apply fill-red w-[35px];
+  }
+
+  .text-underline {
+    @apply mb-3 relative my-2 py-2;
+  }
+  .text-underline:after {
+    @apply content-[""] inline-block absolute bottom-0 right-0 h-[1px] w-full bg-black;
+  }
+
+  .btn-primary {
+    @apply cursor-pointer font-bold bg-red hover:bg-transparent hover:text-red border-2 border-red px-2 py-1 text-white;
+  }
+
+  .img-wrapper:hover img {
+    @apply grayscale-0 contrast-100;
+  }
+  .activeBtn {
+    @apply bg-red text-white;
+  }
+  .activeModal {
+    @apply !opacity-100 !pointer-events-auto;
+  }
+
+  .close {
+    @apply z-50 cursor-pointer absolute right-[22px] -top-[45px] md:right-[32px] md:top-[32px] w-[32px] h-[32px]  opacity-80;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before,
+  .close:after {
+    content: " ";
+    @apply absolute left-[15px] h-[33px] w-[2px] bg-red;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+}
+
+.position-0 {
+  @apply justify-end;
+}
+
+.position-0 .img-wrapper {
+  @apply md:order-2;
+}
+
+.position-0 .content-wrapper {
+  @apply md:order-2;
+}

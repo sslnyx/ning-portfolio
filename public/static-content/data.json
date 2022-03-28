@@ -1,0 +1,92 @@
+[
+  {
+    "menuItems": [
+      {
+        "label": "Projects",
+        "hash": "#projects"
+      },
+      {
+        "label": "Experience",
+        "hash": "#experience"
+      },
+      {
+        "label": "Contact",
+        "hash": "#contact"
+      }
+    ]
+  },
+  {
+    "projects": [
+      {
+        "title": "Pacific Mechanical System",
+        "content": "Mechanical System Branding Site also for customer price quote. Dynmic Content build with WordPress graphql.",
+        "link": "https://pms-six.vercel.app/",
+        "github": "https://github.com/sslnyx/pms",
+        "img": "pms.jpg",
+        "built_with": "React · WordPress · ACF · GraphQL · Contact Form 7",
+        "year": "2022"
+      },
+      {
+        "title": "MG Consulting",
+        "content": "Simple react static branding site with contact form.",
+        "link": "https://mgconsulting.one/",
+        "github": "https://github.com/sslnyx/Mg-Consulting-Full",
+        "img": "mg.jpg",
+        "built_with": "React · Laravel",
+        "year": "2022"
+      },
+      {
+        "title": "Phoenixhomes BC",
+        "content": "Real Estate Developer Company branding site with google api setup.",
+        "link": "https://staging.phoenixhomesbc.ca/",
+        "github": "https://github.com/sslnyx/phoenix-homes",
+        "img": "phoenixhomes.jpg",
+        "built_with": "React · Google Map API · Laravel",
+        "year": "2022"
+      },
+      {
+        "title": "IRIX Design Group",
+        "content": "Marketing Agency Company porfolio site with custom CMS features.",
+        "link": "https://demo.irix.design/",
+        "github": "",
+        "img": "irix.jpg",
+        "built_with": "Vue · Youtube API · Laravel · Voyager",
+        "year": "2021"
+      }
+    ]
+  },
+  {
+    "experience": [
+      {
+        "company": "IRIX Design Group",
+        "title": "Front-end web developer",
+        "date": "Feb 2019 - Present",
+        "responsiblity": [
+          "Build creative full custom website for a diverse array of client and internal projects",
+          "Maintain and optimize existing projects",
+          "Communicate with multi-disciplinary teams of designers, and producers on a daily basis",
+          "Work with a variety of different languages, platforms, frameworks, and content management systems such as React, WordPress, Laravel, and Vercel"
+        ]
+      },
+      {
+        "company": "Richmond Night Market",
+        "title": "Frelance Web Event Project",
+        "date": "July 2021 - Present",
+        "responsiblity": [
+          "Create and update new content section",
+          "Site rebuild with Reactjs and Wordpress Graphql",
+          "Instagram API intergration with Laravel"
+        ]
+      },
+      {
+        "company": "Instant Theatre Company",
+        "title": "Red Academy Community Project",
+        "date": "March 2018",
+        "responsiblity": [
+          "Work in team to develop highly functional WordPress website",
+          "Communicate and work with design team to retrieve clients desire functionality and design expectation"
+        ]
+      }
+    ]
+  }
+]
