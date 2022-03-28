@@ -23,7 +23,7 @@
         "link": "https://pms-six.vercel.app/",
         "github": "https://github.com/sslnyx/pms",
         "img": "pms.jpg",
-        "built_with": "React · WordPress · ACF · GraphQL · Contact Form 7",
+        "built_with": "React · WordPress · ACF · GraphQL · Sass · Contact Form 7",
         "year": "2022"
       },
       {
@@ -32,7 +32,7 @@
         "link": "https://mgconsulting.one/",
         "github": "https://github.com/sslnyx/Mg-Consulting-Full",
         "img": "mg.jpg",
-        "built_with": "React · Laravel",
+        "built_with": "React · Laravel · Sass",
         "year": "2022"
       },
       {
@@ -41,7 +41,7 @@
         "link": "https://staging.phoenixhomesbc.ca/",
         "github": "https://github.com/sslnyx/phoenix-homes",
         "img": "phoenixhomes.jpg",
-        "built_with": "React · Google Map API · Laravel",
+        "built_with": "React · Google Map API · Laravel · Sass",
         "year": "2022"
       },
       {
@@ -50,7 +50,7 @@
         "link": "https://demo.irix.design/",
         "github": "",
         "img": "irix.jpg",
-        "built_with": "Vue · Youtube API · Laravel · Voyager",
+        "built_with": "Vue · Youtube API · Laravel · Sass · Voyager",
         "year": "2021"
       }
     ]
