@@ -11,12 +11,12 @@ const HeroSection = () => {
         <SideMenu className="hidden -top-[16px] absolute md:flex flex-col items-end right-[22px]" />
 
         <p className="text-2xl text-darkred mb-[20px]">Hi, my name is</p>
-        <h2 className="mb-[20px]">
+        <h1 className="font-[500] text-[40px] leading-[40px] -ml-[2px] lg:text-[100px] lg:leading-[90px] md:-ml-[10px] mb-[50px] uppercase mb-[20px]">
           Ning Yu, Luo.
           <br />I build things
           <br />
           for the web.
-        </h2>
+        </h1>
 
         <div className="flex mb-[50px]">
           <p className="text-xl -mr-[8px] max-w-[500px]">
