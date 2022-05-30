@@ -62,10 +62,11 @@
         "title": "Front-end web developer",
         "date": "Feb 2019 - Present",
         "responsiblity": [
-          "Build creative full custom website for a diverse array of client and internal projects",
+          "Build creative full custom websites with the design team.",
           "Maintain and optimize existing projects",
-          "Communicate with multi-disciplinary teams of designers, and producers on a daily basis",
-          "Work with a variety of different languages, platforms, frameworks, and content management systems such as React, WordPress, Laravel, and Vercel"
+          "Develop a CRM system for real estate projects to capture registrant info",
+          "CMS customization for client’s needs (CSV data Import/Export, signature store, custom post content)",
+          "API built with Laravel/WordPress GraphQL for client side requests. (Submit form post request and database query for front-end client)"
         ]
       },
       {
@@ -73,9 +74,9 @@
         "title": "Freelance Web Development Project",
         "date": "July 2021 - Present",
         "responsiblity": [
-          "Create and update new content section",
-          "Site rebuild with Reactjs and Wordpress Graphql",
-          "Instagram API intergration with Laravel"
+          "Website rebuild with React and WordPress GraphQL",
+          "Instagram API integration(Build backend solution for instagram post store and query with Laravel)",
+          "Modify CMS with custom post type (WordPress ACF) for client input"
         ]
       },
       {
